@@ -1,8 +1,8 @@
 import React from 'react'
 import './App.css'
 import List from './components/List'
-import Listt from './components/List2'
-import Listtt from './components/List3'
+import List2 from './components/List2'
+import List3 from './components/List3'
 
 
 function App() {
@@ -13,24 +13,12 @@ function App() {
   return (
     
       <div>
-        <h1>My fruit List:</h1>
-        <List/>
-
-      
-      <h1>Nums:</h1>
-      <Listt items={nums}/>
-
-
-      <h1>Nums2</h1>
-      <Listt items={nums2}/>
-
-
-      <h2>Nums3:</h2>
-      <Listtt itemss={nums3}/>
-
-      </div>
-      
-  )
+        <h1>My fruit List:</h1><List/>
+        <h1>Nums:</h1><List2 items={nums}/>
+       <h1>Nums2</h1> <List2 items={nums2}/>
+       <h2>Nums3:</h2><List3 items2={nums3}/>
+       </div>
+    )
 }
 
 export default App

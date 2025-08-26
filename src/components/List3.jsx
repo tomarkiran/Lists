@@ -1,13 +1,13 @@
 import React from 'react'
 
-const Listtt =({itemss})=>{
+const List3 =({items2})=>{
     return(
         <div>
-            {itemss.map((item2, index)=>(
+            {items2.map((item2, index)=>(
                 <li key={index}>{item2}</li>
             ))}
         </div>
     )
 }
 
-export default Listtt;
+export default List3;

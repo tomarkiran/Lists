@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Listt = ({items}) => {
+const List2 = ({items}) => {
     return(
         <ul>
             {items.map((item, index)=>(
@@ -9,4 +9,4 @@ const Listt = ({items}) => {
         </ul>
     )
 }
-export default Listt
+export default List2
